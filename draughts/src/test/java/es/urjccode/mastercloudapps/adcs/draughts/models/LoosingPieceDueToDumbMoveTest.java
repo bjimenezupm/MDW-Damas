@@ -8,7 +8,7 @@ import static org.junit.Assert.assertNull;
 public class LoosingPieceDueToDumbMoveTest extends GameTest {
 
     @Test
-    void testLoosingRandomPieceAfterWhitePlayerNotEating() {
+    public void testLoosingRandomPieceAfterWhitePlayerNotEating() {
         this.setGame(Color.WHITE,
             "        ",
             "        ",
@@ -34,7 +34,7 @@ public class LoosingPieceDueToDumbMoveTest extends GameTest {
     }
 
     @Test
-    void testLoosingRandomPieceAfterBlackPlayerNotEating() {
+    public void testLoosingRandomPieceAfterBlackPlayerNotEating() {
         this.setGame(Color.BLACK,
             "        ",
             "        ",

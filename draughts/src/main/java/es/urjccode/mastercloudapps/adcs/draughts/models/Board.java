@@ -120,4 +120,17 @@ class Board {
         return true;
     }
 
+    List<Coordinate> getPossiblePieceKills(List<Coordinate> coordinates, Color color){
+        List<Coordinate> possibleKills = new ArrayList<>();
+        Piece piece;
+        for (Coordinate coordinate: coordinates) {
+            if(color.equals(Color.WHITE)){
+                //TODO Find the pieces that can be killed/jumped for Withe pieces
+            } else {
+                //TODO Find the pieces that can be killed/jumped for Black pieces
+            }
+        }
+        return possibleKills;
+    }
+
 }
